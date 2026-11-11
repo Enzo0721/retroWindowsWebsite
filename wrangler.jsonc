@@ -1,0 +1,12 @@
+{
+  "name": "kayaergin-com",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    { "pattern": "kayaergin.com", "custom_domain": true },
+    { "pattern": "www.kayaergin.com", "custom_domain": true }
+  ]
+}
